@@ -15,9 +15,9 @@
 > [!CAUTION]
 > Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.
 
-#### Version: `8.4.24`
-* **174 Currently Listed**
-* `Vehicle Speed 1` `Vehicle Speed 2` `Void Unanchored Parts` `Enable Better Haptics`` ``Custom Accessory Positions`
+#### Version: `8.4.24` - `8.10.24`
+* **176 Currently Listed**
+* `E e ei/Charlie the steak` `Vehicle Speed 1` `Vehicle Speed 2` `Void Unanchored Parts` `Enable Better Haptics` `Remove Haptics Option` `Custom Accessory Positions`
 
 ## Bloxstrap How to Use:
 1. **Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).**
@@ -44,12 +44,9 @@
 3. **Include a Place ID after the semicolon. Examples: `True;4483381587`, `1;4483381587`.**
 4. **Your configuration is complete!**
 
-[Watch a Video Tutorial](https://www.youtube.com/watch?v=5XjhPF5ydJM)
+###### This is no method is no longer available on Bloxstrap because pizzaboxer a stupid Int Bool stupid ass check
 
-## How to Fix 403 in <2.5.4 Bloxstrap
-https://gist.github.com/burgerboxer/c8bf0bb56dc848da9552aedb3467b117.
-
- # List Navigation
+# List Navigation
 * **[Rendering](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#rendering)**
 * **[Lightning Technologies](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file##lightning-technologies)**
 * **[Graphical](https://github.com/luafv/rbxflags/tree/master?tab=readme-ov-file#graphical-settings)**
@@ -780,13 +777,20 @@ High
 
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
-### Custom Accessory Positions [Doesn't work on experiences]
+### Custom Accessory Positions
+```
+{
+    "FFlagAXAccessoryAdjustment": "True",
+    "FFlagAXAccessoryAdjustmentIXPEnabled": "True",
+    "FFlagAXAccessoryAdjustmentIXPEnabledForAll": "True",
+    "FFlagAXAvatarFetchResultCamelCase": "True",
+    "FFlagAccessoryAdjustmentEnabled3": "True"
+}
+```
+### Disable Haptics Option
 ```json
 {
-    "FFlagAccessoryAdjustmentEnabled": "True",
-    "FFlagEnableNonUAPAccessoryAdjustment": "True",
-    "FFlagHumanoidDescriptionFallback": "True",
-    "FFlagHumanoidDescriptionUseInstances4": "True"
+    "FFlagAddHapticsToggle": "False"
 }
 ```
 ### Enable Better Haptics
@@ -1213,6 +1217,10 @@ High
 
 <h1 align="center">lol</h1>
 
+### E e ei/Charlie the steak fflag
+###### the fflag is on vacation sorry for inconvenience lol
+
+
 ### Stop the Chinese from spying on you
 ```json
 {
@@ -1387,17 +1395,17 @@ High
 <h4 align="center">⁺ You've reached the bottom of the list! ⁺</h4>
 
 <h3 align="center">
-  <a href="https://open.spotify.com/track/76d2uYjE6NkCak2wyCAw5d">
-    <img src="https://i.scdn.co/image/ab67616d0000b273f70dcec206fbdbcc9816664a" width="256" alt="Listen on Spotify">
+  <a href="https://open.spotify.com/track/5v1yAVGillOAN3yqJ6pmPL">
+    <img src="https://i.scdn.co/image/ab67616d0000b273a2b4b9962756bbbbab374cc5" width="256" alt="Listen on Spotify">
   </a>
 </h3>
 
 
-<h3 align="center">Cockiness (Love It) - Rihanna</h3>
+<h3 align="center">Promotion - Y$, Future</h3>
 
 
 <h1 align="center">
-  <a href="https://open.spotify.com/track/76d2uYjE6NkCak2wyCAw5d">
+  <a href="https://open.spotify.com/track/5v1yAVGillOAN3yqJ6pmPL">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" width="100">
   </a>
 </h1>
